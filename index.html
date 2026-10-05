@@ -41,10 +41,10 @@
         <article class="featured-project">
           <div class="project-meta"><span>Current research</span><span>2026</span></div>
           <h3>Shandess</h3>
-          <p class="project-subtitle">Towards querying learner histories in natural language</p>
-          <p>My goal with Shandess is to build a model that we can simply ask questions about a learner’s interaction history, in natural language. I am starting with two concrete tasks: predicting whether a student will answer an exercise correctly (knowledge tracing), and which answer they will choose (answer prediction).</p>
-          <p>This involves two architectural challenges: how to compress rich interaction histories, and how to inject those representations into a language model. I have developed history encoders and evaluated soft prompts and cross-attention as ways to connect the history to the LLM.</p>
-          <p>I am now working towards a single model that can respond flexibly to different types of questions about the same history. My current experiments combine reinforcement learning (RLOO) with a reasoning model, testing whether reasoning before answering can help the model adapt across tasks.</p>
+          <p class="project-subtitle">Towards a general-purpose model of learner histories</p>
+          <p>Shandess investigates how language models can answer different questions about a learner’s interaction history. I begin with two prediction tasks: whether the learner will answer an exercise correctly (knowledge tracing), and which answer they will select (answer prediction).</p>
+          <p>A central challenge is to make long histories accessible to the language model without representing every interaction as text. My work studies both parts of this problem: compressing past interactions into learned representations, and injecting those representations into the model through soft prompts or cross-attention.</p>
+          <p>I am now exploring how to train a single model across multiple questions about the same history. Alternating between knowledge tracing and answer prediction during supervised training was not sufficient, so my current experiments combine RLOO with a reasoning model to study whether reasoning improves flexibility across tasks.</p>
           <p>A research paper on Shandess is in preparation.</p>
           <p class="supervision">Supervised by <a href="https://www.pyoudeyer.com">Pierre-Yves Oudeyer</a> and <a href="https://lgaven.me">Loris Gaven</a> at Inria Flowers.</p>
           <a href="#shandess-report">Internship report</a>
