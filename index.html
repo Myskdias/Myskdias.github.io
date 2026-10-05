@@ -41,10 +41,10 @@
         <article class="featured-project">
           <div class="project-meta"><span>Current research</span><span>2026</span></div>
           <h3>Shandess</h3>
-          <p class="project-subtitle">LLM-based knowledge tracing and answer prediction</p>
-          <p>Shandess aims to use large language models to predict student responses from their learning history: whether a response will be correct (knowledge tracing, KT), and which answer a student will choose (answer prediction, AP).</p>
-          <p>The first challenge is to provide that history efficiently. My work addresses two separate questions: how to compress past interactions, and how to inject the resulting representation into the LLM. I developed history encoders and compared soft prompts and cross-attention as ways of providing their outputs to the model.</p>
-          <p>I am now investigating how a single model can answer different types of questions about the same history. Simply alternating between KT and AP during training has not worked in my experiments. I am testing reinforcement learning (RLOO) with a reasoning model, exploring whether reasoning before answering can give the model greater flexibility across tasks.</p>
+          <p class="project-subtitle">Towards querying learner histories in natural language</p>
+          <p>My goal with Shandess is to build a model that we can simply ask questions about a learner’s interaction history, in natural language. I am starting with two concrete tasks: predicting whether a student will answer an exercise correctly (knowledge tracing), and which answer they will choose (answer prediction).</p>
+          <p>This involves two architectural challenges: how to compress rich interaction histories, and how to inject those representations into a language model. I have developed history encoders and evaluated soft prompts and cross-attention as ways to connect the history to the LLM.</p>
+          <p>I am now working towards a single model that can respond flexibly to different types of questions about the same history. My current experiments combine reinforcement learning (RLOO) with a reasoning model, testing whether reasoning before answering can help the model adapt across tasks.</p>
           <p>A research paper on Shandess is in preparation.</p>
           <p class="supervision">Supervised by <a href="https://www.pyoudeyer.com">Pierre-Yves Oudeyer</a> and <a href="https://lgaven.me">Loris Gaven</a> at Inria Flowers.</p>
           <a href="#shandess-report">Internship report</a>
