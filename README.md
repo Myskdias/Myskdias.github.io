@@ -10,6 +10,7 @@ A static, responsive academic website hosted by GitHub Pages. No package manager
 - `styles.css`: layout, typography, mobile and print styles.
 - `photo.jpg`: existing portrait.
 - `Shandess_report_2026.pdf`: revised internship report dated 11 September 2026.
+- `DRQManuscript_2026.pdf`: Digital Red Queen research manuscript, September 2026.
 - `Adele_Dejoie_CV.pdf`: supplied July 2026 CV. The date is shown beside links to avoid presenting it as an updated October CV.
 
 GitHub Pages serves the root of `main`. `.nojekyll` disables Jekyll processing. Changes pushed to `main` are deployed by the existing GitHub Pages integration.
