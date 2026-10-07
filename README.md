@@ -18,4 +18,4 @@ For a local preview, run `python3 -m http.server 8000` in this directory and vis
 
 ## Content maintenance
 
-The page was updated on 5 October 2026. RIKEN is explicitly a planned placement. Research reports are described as reports, not publications; no unpublished performance claims are included. Update availability, internship status, footer date and the PDF together as the profile evolves.
+The page was updated on 5 October 2026. RIKEN is explicitly a planned placement. The “Research & Writing” section distinguishes manuscripts from internship reports; no unpublished performance claims are included. Update availability, internship status, footer date and the PDF together as the profile evolves.
