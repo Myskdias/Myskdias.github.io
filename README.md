@@ -11,6 +11,8 @@ A static, responsive academic website hosted by GitHub Pages. No package manager
 - `photo.jpg`: existing portrait.
 - `Shandess_report_2026.pdf`: revised internship report dated 11 September 2026.
 - `DRQManuscript_2026.pdf`: Digital Red Queen research manuscript, September 2026.
+- `Optimal_stopping_report_2025.pdf`: Osaka University internship report on stochastic calculus and optimal stopping.
+- `Probabilistic_problem_sets_report_2024.pdf`: Inria Magnet internship report on generating probabilistic problem sets with Bayesian graphs.
 - `Adele_Dejoie_CV.pdf`: current PhD-oriented CV, updated October 2026.
 
 GitHub Pages serves the root of `main`. `.nojekyll` disables Jekyll processing. Changes pushed to `main` are deployed by the existing GitHub Pages integration.
